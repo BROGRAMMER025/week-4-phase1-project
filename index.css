@@ -27,6 +27,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    text-align: center;
 }
 
 .welcome {
@@ -51,5 +52,75 @@ nav a {
     text-align: center;
     padding: 20px;
 }
+.colorful-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074D9; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
 
+.colorful-button:hover {
+    background-color: #0056b3; 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #c7ffbe; 
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif; 
+}
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #c7ffbe; 
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons i {
+    color: #000; 
+    margin: 10px;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.background-theme {
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ATAXI.jpg&psig=AOvVaw1lomM0YTyuvB4ThTPM9MqL&ust=1698268030263000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDB28fLj4IDFQAAAAAdAAAAABAE') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.4; 
+}
 
