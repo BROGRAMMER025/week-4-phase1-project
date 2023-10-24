@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.welcome {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    color: #0074D9;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    
+    width: 150px; 
+    height: auto; 
+    
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+
