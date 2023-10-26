@@ -1,18 +1,6 @@
-// Define the API URL
-const apiUrl = 'airport-web.appspot.com/_ah/api ';
-
-// Make a GET request using the fetch API
-fetch(apiUrl)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.json(); // Assuming the response is in JSON format
-  })
-  .then(data => {
-    // Process the API response data here
-    console.log('API Response:', data);
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+const endpoint = 'https://www.gov.uk/bank-holidays.json';
+fetch(endpoint)
+fetch(endpoint).then((response)=>console.log(response));
+fetch(endpoint)
+     .then((response) => response.json())
+     .then((data) => console.log(data));

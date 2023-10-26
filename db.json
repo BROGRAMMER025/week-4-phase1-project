@@ -1,0 +1,208 @@
+
+: 
+"england-and-wales"
+events
+: 
+Array(67)
+0
+: 
+{title: 'New Year’s Day', date: '2018-01-01', notes: '', bunting: true}
+1
+: 
+{title: 'Good Friday', date: '2018-03-30', notes: '', bunting: false}
+2
+: 
+{title: 'Easter Monday', date: '2018-04-02', notes: '', bunting: true}
+3
+: 
+{title: 'Early May bank holiday', date: '2018-05-07', notes: '', bunting: true}
+4
+: 
+{title: 'Spring bank holiday', date: '2018-05-28', notes: '', bunting: true}
+5
+: 
+{title: 'Summer bank holiday', date: '2018-08-27', notes: '', bunting: true}
+6
+: 
+{title: 'Christmas Day', date: '2018-12-25', notes: '', bunting: true}
+7
+: 
+{title: 'Boxing Day', date: '2018-12-26', notes: '', bunting: true}
+8
+: 
+{title: 'New Year’s Day', date: '2019-01-01', notes: '', bunting: true}
+9
+: 
+{title: 'Good Friday', date: '2019-04-19', notes: '', bunting: false}
+10
+: 
+{title: 'Easter Monday', date: '2019-04-22', notes: '', bunting: true}
+11
+: 
+{title: 'Early May bank holiday', date: '2019-05-06', notes: '', bunting: true}
+12
+: 
+{title: 'Spring bank holiday', date: '2019-05-27', notes: '', bunting: true}
+13
+: 
+{title: 'Summer bank holiday', date: '2019-08-26', notes: '', bunting: true}
+14
+: 
+{title: 'Christmas Day', date: '2019-12-25', notes: '', bunting: true}
+15
+: 
+{title: 'Boxing Day', date: '2019-12-26', notes: '', bunting: true}
+16
+: 
+{title: 'New Year’s Day', date: '2020-01-01', notes: '', bunting: true}
+17
+: 
+{title: 'Good Friday', date: '2020-04-10', notes: '', bunting: false}
+18
+: 
+{title: 'Easter Monday', date: '2020-04-13', notes: '', bunting: false}
+19
+: 
+{title: 'Early May bank holiday (VE day)', date: '2020-05-08', notes: '', bunting: true}
+20
+: 
+{title: 'Spring bank holiday', date: '2020-05-25', notes: '', bunting: true}
+21
+: 
+{title: 'Summer bank holiday', date: '2020-08-31', notes: '', bunting: true}
+22
+: 
+{title: 'Christmas Day', date: '2020-12-25', notes: '', bunting: true}
+23
+: 
+{title: 'Boxing Day', date: '2020-12-28', notes: 'Substitute day', bunting: true}
+24
+: 
+{title: 'New Year’s Day', date: '2021-01-01', notes: '', bunting: true}
+25
+: 
+{title: 'Good Friday', date: '2021-04-02', notes: '', bunting: false}
+26
+: 
+{title: 'Easter Monday', date: '2021-04-05', notes: '', bunting: true}
+27
+: 
+{title: 'Early May bank holiday', date: '2021-05-03', notes: '', bunting: true}
+28
+: 
+{title: 'Spring bank holiday', date: '2021-05-31', notes: '', bunting: true}
+29
+: 
+{title: 'Summer bank holiday', date: '2021-08-30', notes: '', bunting: true}
+30
+: 
+{title: 'Christmas Day', date: '2021-12-27', notes: 'Substitute day', bunting: true}
+31
+: 
+{title: 'Boxing Day', date: '2021-12-28', notes: 'Substitute day', bunting: true}
+32
+: 
+{title: 'New Year’s Day', date: '2022-01-03', notes: 'Substitute day', bunting: true}
+33
+: 
+{title: 'Good Friday', date: '2022-04-15', notes: '', bunting: false}
+34
+: 
+{title: 'Easter Monday', date: '2022-04-18', notes: '', bunting: true}
+35
+: 
+{title: 'Early May bank holiday', date: '2022-05-02', notes: '', bunting: true}
+36
+: 
+{title: 'Spring bank holiday', date: '2022-06-02', notes: '', bunting: true}
+37
+: 
+{title: 'Platinum Jubilee bank holiday', date: '2022-06-03', notes: '', bunting: true}
+38
+: 
+{title: 'Summer bank holiday', date: '2022-08-29', notes: '', bunting: true}
+39
+: 
+{title: 'Bank Holiday for the State Funeral of Queen Elizabeth II', date: '2022-09-19', notes: '', bunting: false}
+40
+: 
+{title: 'Boxing Day', date: '2022-12-26', notes: '', bunting: true}
+41
+: 
+{title: 'Christmas Day', date: '2022-12-27', notes: 'Substitute day', bunting: true}
+42
+: 
+{title: 'New Year’s Day', date: '2023-01-02', notes: 'Substitute day', bunting: true}
+43
+: 
+{title: 'Good Friday', date: '2023-04-07', notes: '', bunting: false}
+44
+: 
+{title: 'Easter Monday', date: '2023-04-10', notes: '', bunting: true}
+45
+: 
+{title: 'Early May bank holiday', date: '2023-05-01', notes: '', bunting: true}
+46
+: 
+{title: 'Bank holiday for the coronation of King Charles III', date: '2023-05-08', notes: '', bunting: true}
+47
+: 
+{title: 'Spring bank holiday', date: '2023-05-29', notes: '', bunting: true}
+48
+: 
+{title: 'Summer bank holiday', date: '2023-08-28', notes: '', bunting: true}
+49
+: 
+{title: 'Christmas Day', date: '2023-12-25', notes: '', bunting: true}
+50
+: 
+{title: 'Boxing Day', date: '2023-12-26', notes: '', bunting: true}
+51
+: 
+{title: 'New Year’s Day', date: '2024-01-01', notes: '', bunting: true}
+52
+: 
+{title: 'Good Friday', date: '2024-03-29', notes: '', bunting: false}
+53
+: 
+{title: 'Easter Monday', date: '2024-04-01', notes: '', bunting: true}
+54
+: 
+{title: 'Early May bank holiday', date: '2024-05-06', notes: '', bunting: true}
+55
+: 
+{title: 'Spring bank holiday', date: '2024-05-27', notes: '', bunting: true}
+56
+: 
+{title: 'Summer bank holiday', date: '2024-08-26', notes: '', bunting: true}
+57
+: 
+{title: 'Christmas Day', date: '2024-12-25', notes: '', bunting: true}
+58
+: 
+{title: 'Boxing Day', date: '2024-12-26', notes: '', bunting: true}
+59
+: 
+{title: 'New Year’s Day', date: '2025-01-01', notes: '', bunting: true}
+60
+: 
+{title: 'Good Friday', date: '2025-04-18', notes: '', bunting: false}
+61
+: 
+{title: 'Easter Monday', date: '2025-04-21', notes: '', bunting: true}
+62
+: 
+{title: 'Early May bank holiday', date: '2025-05-05', notes: '', bunting: true}
+63
+: 
+{title: 'Spring bank holiday', date: '2025-05-26', notes: '', bunting: true}
+64
+: 
+{title: 'Summer bank holiday', date: '2025-08-25', notes: '', bunting: true}
+65
+: 
+{title: 'Christmas Day', date: '2025-12-25', notes: '', bunting: true}
+
+ 
+
+  
