@@ -39,14 +39,20 @@ nav a {
     padding: 20px;
 }
 
-.logo {
-    text-align: center;
-    padding: 20px;
-    
-    width: 150px; 
-    height: auto; 
-    
+/* Center the image horizontally and vertically */
+.image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 30vh; /* Adjust the height as needed */
 }
+
+
+.image-container img {
+    max-width: 17%; 
+    max-height: 17%; 
+}
+
 
 .contact {
     text-align: center;

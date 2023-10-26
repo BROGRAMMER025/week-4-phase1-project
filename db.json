@@ -1,111 +1,56 @@
 {
-    "england-and-wales": {
-        "division": "england-and-wales",
-        "events": [
-           
-            {
-                "title": "New Year’s Day",
-                "date": "2023-01-02",
-                "notes": "Substitute day",
-                "bunting": true
-            },
-            {
-                "title": "Good Friday",
-                "date": "2023-04-07",
-                "notes": "",
-                "bunting": false
-            },
-            {
-                "title": "Easter Monday",
-                "date": "2023-04-10",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Early May bank holiday",
-                "date": "2023-05-01",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Bank holiday for the coronation of King Charles III",
-                "date": "2023-05-08",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Spring bank holiday",
-                "date": "2023-05-29",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Summer bank holiday",
-                "date": "2023-08-28",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Christmas Day",
-                "date": "2023-12-25",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Boxing Day",
-                "date": "2023-12-26",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "New Year’s Day",
-                "date": "2024-01-01",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Good Friday",
-                "date": "2024-03-29",
-                "notes": "",
-                "bunting": false
-            },
-            {
-                "title": "Easter Monday",
-                "date": "2024-04-01",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Early May bank holiday",
-                "date": "2024-05-06",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Spring bank holiday",
-                "date": "2024-05-27",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Summer bank holiday",
-                "date": "2024-08-26",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Christmas Day",
-                "date": "2024-12-25",
-                "notes": "",
-                "bunting": true
-            },
-            {
-                "title": "Boxing Day",
-                "date": "2024-12-26",
-                "notes": "",
-                "bunting": true
-            }
-          
-        ]
-    }
+    "holidays": [
+        {
+            "title": "New Year’s Day",
+            "date": "2023-01-02"
+            
+        },
+        {
+            "title": "Good Friday",
+            "date": "2023-04-07"
+            
+        },
+        {
+            "title": "Easter Monday",
+            "date": "2023-04-10",
+            "notes": "",
+            "bunting": true
+        },
+        {
+            "title": "Early May bank holiday",
+            "date": "2023-05-01",
+            "notes": "",
+            "bunting": true
+        },
+        {
+            "title": "Bank holiday for the coronation of King Charles III",
+            "date": "2023-05-08",
+            "notes": "",
+            "bunting": true
+        },
+        {
+            "title": "Spring bank holiday",
+            "date": "2023-05-29",
+            "notes": "",
+            "bunting": true
+        },
+        {
+            "title": "Summer bank holiday",
+            "date": "2023-08-28",
+            "notes": "",
+            "bunting": true
+        },
+        {
+            "title": "Christmas Day",
+            "date": "2023-12-25",
+            "notes": "",
+            "bunting": true
+        },
+        {
+            "title": "Boxing Day",
+            "date": "2023-12-26",
+            "notes": "",
+            "bunting": true
+        }
+    ]
 }

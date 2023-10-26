@@ -1,27 +1,58 @@
-const endpoint = 'https://www.gov.uk/bank-holidays.json';
-const ul = document.getElementById('holidays')
-            
-fetch(endpoint)
-  .then(blob => blob.json())
-  .then(data => handleDates(data));
+const fs = require('fs');
 
-  function handleDates(data) {
-    let bankHolidays = data;
-    let england = bankHolidays["england-and-wales"].events;
-    const now = new Date();
-    const thisMonth = now.getUTCMonth() + 1; //months from 1-12
-    const thisDay = now.getUTCDate();
-    const thisYear = now.getUTCFullYear();
-    const thisDate = thisYear + '-' +thisMonth + '-' +thisDay;
-    const html = england.map((items)=>{
-      const [year, month, date] = items.date.split("-");
-      
-      if(Date.parse(thisDate) <= Date.parse(items.date)){
-        return `
-      <li>${items.title} <br/> <span class='yellow'>(${date} / ${month} / ${year})</span>  </li>
-      `;
-      }
+
+fs.readFile('db.json', 'utf8', (err, data) => {
+  if (err) {
+    console.error('Error reading the file:', err);
+    return;
+  }
+  try {
+
+    const jsonData = JSON.parse(data);
+
+    const holidays = jsonData.holidays;
+    holidays.forEach((holiday) => {
+      console.log(`Title: ${holiday.title}, Date: ${holiday.date}`);
+    });
+  } catch (error) {
+    console.error('Error parsing JSON:', error);
+  }
+});
+etch('db.json')
+  .then((response) => response.json())
+  .then((data) => {
     
-    }).join('');
-  ul.innerHTML = html;
-}
+    const movieTitles = data.vacation.map((holidays) => vacay.title);
+    
+  
+    const movieList = document.createElement('ul');
+    movieTitles.forEach((title) => {
+      const listItem = document.createElement('li');
+      listItem.textContent = title;
+      holiday.appendChild(listItem);
+    });
+
+    
+    document.body.appendChild(vacation);
+  })
+  .catch((error) => {
+    console.error('Error fetching data:', error);
+  });
+     // Event listener for the button
+     const displayWinterButton = document.getElementById('displayWinterButton');
+     displayWinterButton.addEventListener('click', () => {
+         // Fetch data by "id"
+         const winterStart = jsonData.holidays.find(holiday => vacay.id === 'winterstart');
+         const winterEnd = jsonData.holidays.find(holiday => vacay.id === 'winterend');
+
+         // Display the data
+         const winterDates = document.getElementById('winterDates');
+         winterDates.innerHTML = `
+             <p>Winter Start Date: ${winterStart.date}</p>
+             <p>Winter End Date: ${winterEnd.date}</p>
+         `;
+     });
+  cath (error) {
+     console.error('Error parsing JSON:', error);
+ }
+;

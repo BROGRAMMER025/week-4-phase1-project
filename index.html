@@ -8,42 +8,115 @@
     <title>BRITAIN AND WALES BANK HOLIDAYS</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+ 
 
 </head>
 <body>
-   
-      <ul id='holidays'></ul>
-   
-    
-       
     <header>
         <h1>The UK BANK HOLIDAY CALENDER </h1>
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
+        <button id="showEventsButtonWinter">Winter</button>
+        <button id="showEventsButtonSpring">Spring</button>
+        <button id="showEventsButtonSummer">Summer</button>
+        <button id="showEventsButtonAutumn">Autumn</button>
+        
+        <div id="eventInfo">
+            <!-- Event information will be displayed here -->
+        </div>
+        
+        <script>
+            // Data for Winter events
+            var winterEvents = [
+                {
+                    title: "New Year's Day",
+                    date: "2023-01-02"
+                },
+                {
+                    title: "Good Friday",
+                    date: "2023-04-07"
+                }
+            ];
+    
+            // Data for Spring events
+            var springEvents = [
+                {
+                    title: "Easter Monday",
+                    date: "2023-04-10"
+                },
+                {
+                    title: "Early May bank holiday",
+                    date: "2023-05-01"
+                },
+                {
+                    title: "Bank holiday for the coronation of King Charles III",
+                    date: "2023-05-08"
+                }
+            ];
+    
+            // Data for Summer events
+            var summerEvents = [
+                {
+                    title: "Summer bank holiday",
+                    date: "2023-08-28"
+                }
+            ];
+    
+            // Data for Autumn events
+            var autumnEvents = [
+                {
+                    title: "Christmas Day",
+                    date: "2023-12-25"
+                },
+                {
+                    title: "Boxing Day",
+                    date: "2023-12-26"
+                }
+            ];
+    
+            // Function to display events
+            function showEvents(events) {
+                var eventInfoDiv = document.getElementById("eventInfo");
+                eventInfoDiv.innerHTML = ''; // Clear previous content
+    
+                for (var i = 0; i < events.length; i++) {
+                    var event = events[i];
+                    var eventInfo = document.createElement("p");
+                    eventInfo.textContent = "Title: " + event.title + ", Date: " + event.date;
+                    eventInfoDiv.appendChild(eventInfo);
+                }
+            }
+    
+            // Add click event listeners to the buttons
+            document.getElementById("showEventsButtonWinter").addEventListener("click", function() {
+                showEvents(winterEvents);
+            });
+    
+            document.getElementById("showEventsButtonSpring").addEventListener("click", function() {
+                showEvents(springEvents);
+            });
+    
+            document.getElementById("showEventsButtonSummer").addEventListener("click", function() {
+                showEvents(summerEvents);
+            });
+    
+            document.getElementById("showEventsButtonAutumn").addEventListener("click", function() {
+                showEvents(autumnEvents);
+            });
+        </script>
     </nav>
 
     <div class="welcome">
         <h2>BRITAIN AND WALES </h2>
     </div>
-
-    <div class="logo">
-        
-        
-        
-    </div>
-
+    
     <div class="contact">
         <h3>Contact Information:</h3>
         <p>Email: info@britainandwales.com</p>
         <p>Phone: (123) 456-7890</p>
         
-    </div>
+  
     <div class="footer">
         <p style="font-family: Monaco;">THIS IS A DESCRIPTION OF THE UNITED KINGDOM BANK HOLIDAYS</p>
         <div class="social-icons">
@@ -51,10 +124,5 @@
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
-</body>
-</html>
-
- 
-    
 </body>
 </html>

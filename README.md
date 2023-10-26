@@ -21,11 +21,14 @@ List the key features of your project. For example:
 - Data visualization
 
 
-
+## MVPs
 
 enables user to view date of summer holidays
-enables user to see date of winter holiday
-enable user to see holidays in 2023 and 2024
+enables user to see date of winter holidays
+enable user to view spring holidays
+enable user to view autumn holidays
+
+## licence
 
 This project is licensed under the MIT License
 
