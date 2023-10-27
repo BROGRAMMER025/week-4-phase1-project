@@ -39,3 +39,6 @@ This project is licensed under the MIT License
 
 This project used github and json server/
 
+## Author Name
+Allan Murigi
+
