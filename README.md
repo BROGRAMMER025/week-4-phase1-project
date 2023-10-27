@@ -1,5 +1,8 @@
 # Project Name
-LOGICO
+BRITAIN AND WALES BANK HOLIDAYS
+
+## deployment
+this project is deployed:  https://brogrammer025.github.io/week-4-phase1-project/
 
 ## Description
 This is an application that allows a user to view bank holidays for VBritain and Wales
